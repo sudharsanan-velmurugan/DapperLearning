@@ -10,6 +10,7 @@ namespace DapperLearning.Repository
     {
         private readonly IConfiguration configuration;
 
+        
         public EmployeeRepository( IConfiguration configuration )
         {
             this.configuration = configuration;

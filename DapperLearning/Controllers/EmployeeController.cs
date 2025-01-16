@@ -11,11 +11,15 @@ namespace DapperLearning.Controllers
     {
         private readonly IEmployeeRepository employeeRepository;
 
+        // Repository pattern using Dependency Injection
+
         public EmployeeController(IEmployeeRepository EmployeeRepository)
         {
             employeeRepository = EmployeeRepository;
         }
 
+
+        // Get all employees
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -23,6 +27,7 @@ namespace DapperLearning.Controllers
             return Ok(employees);
         }
 
+        // Getting single employee by his id
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID(int id)
         {
@@ -31,6 +36,8 @@ namespace DapperLearning.Controllers
                 return NotFound();
             return Ok(employee);
         }
+
+        // Adding new employee
         [HttpPost]
         public async Task<IActionResult> AddEmployee(Employee employee)
         {
@@ -38,6 +45,8 @@ namespace DapperLearning.Controllers
             await employeeRepository.AddEmployeeAsync(employee);
             return Ok();
         }
+
+        //Editing employee details
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateEmployee(int id,Employee employee)
         {
@@ -49,6 +58,8 @@ namespace DapperLearning.Controllers
             await employeeRepository.UpdateEmployeeAsync(id, employee);
             return Ok();
         }
+
+        // Removing employee 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
