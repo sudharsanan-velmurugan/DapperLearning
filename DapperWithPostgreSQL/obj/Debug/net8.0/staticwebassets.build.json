@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "XPO2e0j2WG5E/Olzs0xbxXbb1fS7kp6T0XVkKaIP16Q=",
+  "Source": "DapperWithPostgreSQL",
+  "BasePath": "_content/DapperWithPostgreSQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

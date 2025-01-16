@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperLearning", "DapperLearning.csproj", "{7EED36AC-D20A-4EF5-95FC-BFD263E45340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperWithPostgreSQL", "..\DapperWithPostgreSQL\DapperWithPostgreSQL.csproj", "{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7EED36AC-D20A-4EF5-95FC-BFD263E45340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EED36AC-D20A-4EF5-95FC-BFD263E45340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EED36AC-D20A-4EF5-95FC-BFD263E45340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
