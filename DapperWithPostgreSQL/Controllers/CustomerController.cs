@@ -9,9 +9,9 @@ namespace DapperWithPostgreSQL.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        private readonly ICustomerRepository _repo;
+        private readonly IGenericRepository<Customer> _repo;
 
-        public CustomerController(ICustomerRepository repo)
+        public CustomerController(IGenericRepository<Customer> repo)
         {
             _repo = repo;
         }
@@ -35,7 +35,7 @@ namespace DapperWithPostgreSQL.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCustomer(Customer customer)
         {
-            await _repo.AddCustomerAsync(customer);
+            await _repo.AddAsync(customer);
             
                 
 
@@ -49,7 +49,7 @@ namespace DapperWithPostgreSQL.Controllers
                 return NotFound();
             customer.Id = customerExists.Id;
 
-            await _repo.UpdateCustomerAsync(customer);
+            await _repo.UpdateAsync(customer);
 
             return Ok(customer);
         }
@@ -60,7 +60,7 @@ namespace DapperWithPostgreSQL.Controllers
             if (customers == null)
                 return NotFound();
 
-            await _repo.DeleteCustomerAsync(Id);
+            await _repo.DeleteAsync(Id);
 
             return Ok();
         }

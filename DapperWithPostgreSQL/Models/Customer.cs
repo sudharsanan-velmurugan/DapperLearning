@@ -10,7 +10,7 @@ namespace DapperWithPostgreSQL.Models
         public required string first_name { get; set; }
         public required string last_name { get; set; }
         public required string email { get; set; }
-        public int  gender_id { get; set; }  
-      
+        public int  gender_id { get; set; }
+
     }
 }

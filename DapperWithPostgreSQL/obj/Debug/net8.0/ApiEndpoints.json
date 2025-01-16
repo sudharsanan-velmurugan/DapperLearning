@@ -63,6 +63,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
+    "Method": "DeleteCustomerById",
+    "RelativePath": "api/Customer/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
+    "Method": "Get",
+    "RelativePath": "api/Gender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
+    "Method": "Post",
+    "RelativePath": "api/Gender",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gender",
+        "Type": "DapperWithPostgreSQL.Models.Gender",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
+    "Method": "Get",
+    "RelativePath": "api/Gender/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DapperWithPostgreSQL.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

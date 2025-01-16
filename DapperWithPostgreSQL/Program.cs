@@ -1,3 +1,4 @@
+using DapperWithPostgreSQL.Models;
 using DapperWithPostgreSQL.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +9,8 @@ builder.Services.AddControllers().AddJsonOptions(options=>options.JsonSerializer
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<IGenericRepository<Gender>, GenericRepository<Gender>>();
+builder.Services.AddScoped<IGenericRepository<Customer>, GenericRepository<Customer>>();
 
 var app = builder.Build();
 

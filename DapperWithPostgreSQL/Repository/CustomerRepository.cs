@@ -47,7 +47,7 @@ namespace DapperWithPostgreSQL.Repository
         public async Task UpdateCustomerAsync(Customer customer)
         {
             var connection = GetConnection();
-            await connection.ExecuteAsync("UPDATE  customer SET first_name=@first_name,last_name=@last_name,email=@email,gender_id=@gender_id WHERE \"Id\"=@Id ",customer);
+            await connection.ExecuteAsync("UPDATE customer SET first_name=@first_name,last_name=@last_name,email=@email,gender_id=@gender_id WHERE \"Id\"=@Id ",customer);
         }
 
         private NpgsqlConnection GetConnection()
