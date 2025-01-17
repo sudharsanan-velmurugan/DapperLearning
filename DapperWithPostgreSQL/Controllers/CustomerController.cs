@@ -17,13 +17,15 @@ namespace DapperWithPostgreSQL.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllCustomer()
+        public async Task<IActionResult> GetAllCustomerAsync()
         {
             var customers = await _repo.GetAllAsync();
+            if(!customers.Any())
+                return NoContent();
             return Ok(customers);
         }
         [HttpGet("{Id}")]
-        public async Task<IActionResult> GetCustomerById(int Id)
+        public async Task<IActionResult> GetCustomerByIdAsync(int Id)
         {
             var customers = await _repo.GetByIdAsync(Id);
             if (customers == null) 
@@ -33,15 +35,15 @@ namespace DapperWithPostgreSQL.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCustomer(Customer customer)
+        public async Task<IActionResult> AddCustomerAsync(Customer customer)
         {
             if(customer == null)
                 return BadRequest();
             await _repo.AddAsync(customer);
-            return CreatedAtAction(nameof(AddCustomer), new {Id=customer.Id}, customer);
+            return CreatedAtAction(nameof(AddCustomerAsync), new {Id=customer.Id}, customer);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCustomer(int id,Customer customer)
+        public async Task<IActionResult> UpdateCustomerAsync(int id,Customer customer)
         {
             var customerExists = await _repo.GetByIdAsync(id);
             if (customerExists == null)
@@ -53,7 +55,7 @@ namespace DapperWithPostgreSQL.Controllers
             return Ok(customer);
         }
         [HttpDelete("{Id}")]
-        public async Task<IActionResult> DeleteCustomerById(int Id)
+        public async Task<IActionResult> DeleteCustomerByIdAsync(int Id)
         {
             var customerExists = await _repo.GetByIdAsync(Id);
             if (customerExists == null)
@@ -65,7 +67,7 @@ namespace DapperWithPostgreSQL.Controllers
         }
 
         [HttpGet("GetCustomerWithGender")]
-        public async Task<IActionResult> GetWithGender()
+        public async Task<IActionResult> GetWithGenderAsync()
         {
             var customers = await _repo.GetCustomersWithGenderAsync();
             return Ok(customers);

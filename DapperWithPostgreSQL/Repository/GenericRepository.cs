@@ -74,7 +74,7 @@ namespace DapperWithPostgreSQL.Repository
         public async Task<List<CustomerWithGender>> GetCustomersWithGenderAsync()
         {
             using var connection = GetConnection();
-            string query = $"SELECT \"Id\"first_name,last_name,email,gender_name AS gender FROM customer JOIN gender ON customer.gender_id = gender.\"Id\" ";
+            string query = $"SELECT customer.\"Id\",first_name,last_name,email,gender_name AS gender FROM customer JOIN gender ON customer.gender_id = gender.\"Id\" ";
             var result = await connection.QueryAsync<CustomerWithGender>(query);
             return result.ToList();
         }

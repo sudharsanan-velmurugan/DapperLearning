@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
-    "Method": "GetAllCustomer",
+    "Method": "GetAllCustomerAsync",
     "RelativePath": "api/Customer",
     "HttpMethod": "GET",
     "IsController": true,
@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
-    "Method": "AddCustomer",
+    "Method": "AddCustomerAsync",
     "RelativePath": "api/Customer",
     "HttpMethod": "POST",
     "IsController": true,
@@ -27,7 +27,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
-    "Method": "UpdateCustomer",
+    "Method": "UpdateCustomerAsync",
     "RelativePath": "api/Customer/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -48,7 +48,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
-    "Method": "GetCustomerById",
+    "Method": "GetCustomerByIdAsync",
     "RelativePath": "api/Customer/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -64,7 +64,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
-    "Method": "DeleteCustomerById",
+    "Method": "DeleteCustomerByIdAsync",
     "RelativePath": "api/Customer/{Id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -80,7 +80,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
-    "Method": "GetWithGender",
+    "Method": "GetWithGenderAsync",
     "RelativePath": "api/Customer/GetCustomerWithGender",
     "HttpMethod": "GET",
     "IsController": true,
