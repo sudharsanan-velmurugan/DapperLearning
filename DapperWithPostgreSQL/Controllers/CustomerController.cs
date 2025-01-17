@@ -35,10 +35,9 @@ namespace DapperWithPostgreSQL.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCustomer(Customer customer)
         {
+            if(customer == null)
+                return BadRequest();
             await _repo.AddAsync(customer);
-            
-                
-
             return CreatedAtAction(nameof(AddCustomer), new {Id=customer.Id}, customer);
         }
         [HttpPut("{id}")]
@@ -56,8 +55,8 @@ namespace DapperWithPostgreSQL.Controllers
         [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteCustomerById(int Id)
         {
-            var customers = await _repo.GetByIdAsync(Id);
-            if (customers == null)
+            var customerExists = await _repo.GetByIdAsync(Id);
+            if (customerExists == null)
                 return NotFound();
 
             await _repo.DeleteAsync(Id);

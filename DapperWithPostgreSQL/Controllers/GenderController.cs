@@ -40,6 +40,7 @@ namespace DapperWithPostgreSQL.Controllers
             if (gender == null)
             return BadRequest();
 
+
             await repo.AddAsync(gender);
             return CreatedAtAction(nameof(Post),new {id=gender.Id},gender);
         }
