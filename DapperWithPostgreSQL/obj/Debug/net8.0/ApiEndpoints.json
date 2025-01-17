@@ -79,6 +79,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.CustomerController",
+    "Method": "GetWithGender",
+    "RelativePath": "api/Customer/GetCustomerWithGender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
     "Method": "Get",
     "RelativePath": "api/Gender",
@@ -109,6 +119,43 @@
     "Method": "Get",
     "RelativePath": "api/Gender/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
+    "Method": "Put",
+    "RelativePath": "api/Gender/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gender",
+        "Type": "DapperWithPostgreSQL.Models.Gender",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
+    "Method": "Delete",
+    "RelativePath": "api/Gender/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

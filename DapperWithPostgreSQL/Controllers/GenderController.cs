@@ -40,9 +40,32 @@ namespace DapperWithPostgreSQL.Controllers
             if (gender == null)
             return BadRequest();
 
-
             await repo.AddAsync(gender);
             return CreatedAtAction(nameof(Post),new {id=gender.Id},gender);
+        }
+
+        [HttpPut("{id}")]
+
+        public async Task<IActionResult> Put(int id,Gender gender)
+        {
+            var genderExists = await repo.GetByIdAsync(id);
+            if (genderExists == null)
+                return NotFound();
+            gender.Id = genderExists.Id;
+            await repo.UpdateAsync(gender);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var genderExists = await repo.GetByIdAsync(id);
+            if (genderExists == null)
+                return NotFound();
+           
+            await repo.DeleteAsync(id);
+            return Ok();
         }
     }
 }

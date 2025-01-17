@@ -63,5 +63,12 @@ namespace DapperWithPostgreSQL.Controllers
 
             return Ok();
         }
+
+        [HttpGet("GetCustomerWithGender")]
+        public async Task<IActionResult> GetWithGender()
+        {
+            var customers = await _repo.GetCustomersWithGenderAsync();
+            return Ok(customers);
+        }
     }
 }
