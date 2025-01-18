@@ -4,3 +4,7 @@
 *.targets
 *.http
 *.vsidx
+*.bin
+*.json
+*.v2
+*.dll

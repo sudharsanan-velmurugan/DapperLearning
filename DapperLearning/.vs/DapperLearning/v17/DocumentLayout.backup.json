@@ -6,43 +6,48 @@
       "AbsoluteMoniker": "D:0:0:{62414665-AAD5-4EB3-A391-ED0ED85A611A}|..\\DapperWithPostgreSQLTest\\DapperWithPostgreSQL.Test.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresqltest\\system\\controllers\\testcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62414665-AAD5-4EB3-A391-ED0ED85A611A}|..\\DapperWithPostgreSQLTest\\DapperWithPostgreSQLTest.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresqltest\\mockdata\\customermockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\helper\\generichelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62414665-AAD5-4EB3-A391-ED0ED85A611A}|..\\DapperWithPostgreSQLTest\\DapperWithPostgreSQL.Test.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresqltest\\mockdata\\customermockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\models\\customerwithgender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\helper\\generichelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperlearning\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\models\\customerwithgender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperlearning\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperlearning\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperlearning\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\dapperwithpostgresql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -55,17 +60,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:24:48.735Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TestCustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAvwDcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs*",
+              "RelativeToolTip": "..\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T11:20:03.968Z",
               "EditorCaption": ""
@@ -76,16 +102,150 @@
               "Title": "CustomerMockData.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs*",
+              "RelativeToolTip": "..\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAtwB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T11:06:35.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:15:44.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Program.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Program.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Program.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:21:09.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\appsettings.json",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\appsettings.json",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T06:44:30.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\WeatherForecast.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:21:14.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:21:06.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:48:09.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenderController.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:23:47.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericHelper.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:07:38.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:21:01.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:33:40.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CustomerWithGender.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\CustomerWithGender.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\CustomerWithGender.cs",
@@ -98,85 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvxcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T09:15:44.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenericHelper.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T06:07:38.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAjwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T11:24:48.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:33:40.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenderController.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T12:23:47.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Customer.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:48:09.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
@@ -189,33 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAABBwDYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:58:36.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Repository\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Repository\\EmployeeRepository.cs",
-              "RelativeToolTip": "Repository\\EmployeeRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T09:44:43.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DapperWithPostgreSQL.csproj",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj",
@@ -224,19 +280,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-16T09:13:43.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\appsettings.json",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\appsettings.json",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T06:44:30.087Z",
               "EditorCaption": ""
             }
           ]

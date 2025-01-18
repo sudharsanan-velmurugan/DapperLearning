@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DapperWithPostgreSQL.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6e6dbfcc1581202838824ae6ddf5d4ff1e559fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cad84bd37c1e257a7c4d4f15a4c0ab557a27b21a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DapperWithPostgreSQL.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DapperWithPostgreSQL.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -28,10 +28,7 @@ namespace DapperWithPostgreSQLTest.MockData
             return new Customer { Id = 1, first_name = "sudhar", last_name = "sanan", email = "sudhar@example.com", gender_id = 1 };
 
         }
-        public static string GetCustomersByIdEmptyData()
-        {
-            return string.Empty;
-        }
+        
 
 
     }

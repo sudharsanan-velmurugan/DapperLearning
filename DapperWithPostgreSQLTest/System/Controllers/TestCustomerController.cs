@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DapperWithPostgreSQL.Controllers;
+﻿using DapperWithPostgreSQL.Controllers;
 using DapperWithPostgreSQL.Models;
 using DapperWithPostgreSQL.Repository;
 using DapperWithPostgreSQLTest.MockData;
@@ -52,7 +47,7 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
 
         }
         [Fact]
-        public async Task GetCustomerByIdAsync_ShouldReturn201Status()
+        public async Task GetCustomerByIdAsync_ShouldReturn200Status()
         {
             //Arrange
             var customerService = new Mock<IGenericRepository<Customer>>();
@@ -65,8 +60,8 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
             var result = await systemUnderTest.GetCustomerByIdAsync(1);
 
             // Assert
-            result.GetType().Should().Be(typeof(CreatedAtActionResult));
-            (result as CreatedAtActionResult).StatusCode.Should().Be(201);
+            result.GetType().Should().Be(typeof(OkObjectResult));
+            (result as OkObjectResult).StatusCode.Should().Be(200);
 
         }
         [Fact]
@@ -75,16 +70,16 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
             //Arrange
             var customerService = new Mock<IGenericRepository<Customer>>();
 
-            customerService.Setup(x => x.GetByIdAsync(2)).ReturnsAsync(CustomerMockData.GetCustomersById());
+            customerService.Setup(x => x.GetByIdAsync(2)).ReturnsAsync((Customer?)null);
 
             var systemUnderTest = new CustomerController(customerService.Object);
 
             //Act 
-            var result = await systemUnderTest.GetAllCustomerAsync();
+            var result = await systemUnderTest.GetCustomerByIdAsync(2);
 
             // Assert
-            result.GetType().Should().Be(typeof(NoContentResult));
-            (result as NoContentResult).StatusCode.Should().Be(204);
+            result.GetType().Should().Be(typeof(NotFoundResult));
+            (result as NotFoundResult).StatusCode.Should().Be(404);
 
         }
     }
