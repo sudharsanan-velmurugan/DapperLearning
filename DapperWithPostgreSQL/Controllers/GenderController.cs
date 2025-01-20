@@ -18,15 +18,17 @@ namespace DapperWithPostgreSQL.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> GetAllAsync()
         {
             var genders = await repo.GetAllAsync();
+            if (!genders.Any())
+                return NoContent();
             return Ok(genders);
         }
 
         [HttpGet("{id}")]
 
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> GetGenderIdAsync(int id)
         {
             var gender = await repo.GetByIdAsync(id);
             if (gender == null)
@@ -35,37 +37,37 @@ namespace DapperWithPostgreSQL.Controllers
         }
         [HttpPost]
 
-        public async Task<IActionResult> Post(Gender gender)
+        public async Task<IActionResult> AddGenderAsync(Gender gender)
         {
             if (gender == null)
             return BadRequest();
 
             await repo.AddAsync(gender);
-            return CreatedAtAction(nameof(Post),new {id=gender.Id},gender);
+            return CreatedAtAction(nameof(AddGenderAsync),new {id=gender.Id},gender);
         }
 
         [HttpPut("{id}")]
 
-        public async Task<IActionResult> Put(int id,Gender gender)
+        public async Task<IActionResult> UpdateGenderAsync(int id,Gender gender)
         {
             var genderExists = await repo.GetByIdAsync(id);
             if (genderExists == null)
                 return NotFound();
             gender.Id = genderExists.Id;
             await repo.UpdateAsync(gender);
-            return Ok();
+            return Ok(gender);
         }
 
         [HttpDelete("{id}")]
 
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> DeletebyIdAsync(int id)
         {
             var genderExists = await repo.GetByIdAsync(id);
             if (genderExists == null)
                 return NotFound();
            
             await repo.DeleteAsync(id);
-            return Ok();
+            return Ok("Deleted Successfully");
         }
     }
 }

@@ -10,7 +10,9 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
 {
     public class TestCustomerController
     {
+
         [Fact]
+        [Trait("Category","GetAll")]
         public async Task GetAllCustomerAsync_ShouldReturn200Status()
         {
             //Arrange
@@ -28,7 +30,9 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
             (result as OkObjectResult).StatusCode.Should().Be(200);
 
         }
+
         [Fact]
+        [Trait("Category", "GetAll")]
         public async Task GetAllCustomerAsync_ShouldReturn204Status()
         {
             //Arrange
@@ -47,6 +51,7 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
 
         }
         [Fact]
+        [Trait("Category", "GetById")]
         public async Task GetCustomerByIdAsync_ShouldReturn200Status()
         {
             //Arrange
@@ -65,6 +70,7 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
 
         }
         [Fact]
+        [Trait("Category", "GetById")]
         public async Task GetCustomerByIdAsync_ShouldReturn404Status()
         {
             //Arrange
@@ -81,6 +87,103 @@ namespace DapperWithPostgreSQL.Test.System.Controllers
             result.GetType().Should().Be(typeof(NotFoundResult));
             (result as NotFoundResult).StatusCode.Should().Be(404);
 
+        }
+
+        [Fact]
+        [Trait("Category", "Post")]
+        public async Task AddCustomerAsync_ShouldReturn201Status()
+        {
+            var customerService = new Mock<IGenericRepository<Customer>>();
+
+             customerService.Setup(x => x.AddAsync(It.IsAny<Customer>())).Returns(Task.CompletedTask);
+
+            var systemUnderTest = new CustomerController(customerService.Object);
+
+            var result = await systemUnderTest.AddCustomerAsync(CustomerMockData.GetCustomersById());
+
+            result.GetType().Should().Be(typeof(CreatedAtActionResult));
+            (result as CreatedAtActionResult).StatusCode.Should().Be(201);
+
+        }
+
+        [Fact]
+        [Trait("Category","Post")]
+
+        public async Task AddCustomerAsync_ShouldReturn400Status()
+        {
+            var customerService = new Mock<IGenericRepository<Customer>>();
+
+            customerService.Setup(x=>x.AddAsync(It.IsAny<Customer>())).Returns(Task.CompletedTask);
+
+            var systemUnderTest = new CustomerController(customerService.Object);
+
+
+            var result = await systemUnderTest.AddCustomerAsync(null);
+            //var result = await systemUnderTest.AddCustomerAsync(Customer as null);
+            result.GetType().Should().Be(typeof(BadRequestResult));
+            (result as BadRequestResult).StatusCode.Should().Be(400);
+
+            
+        }
+        [Fact]
+        [Trait("Category", "Put")]
+        public async Task UpdateCustomerAsync_ShouldReturn200Status()
+        {
+            var customerService = new Mock<IGenericRepository<Customer>>();
+            customerService.Setup(x => x.GetByIdAsync(1)).ReturnsAsync(CustomerMockData.GetCustomersById());
+
+            customerService.Setup(x => x.UpdateAsync(It.IsAny<Customer>())).Returns(Task.CompletedTask);
+
+            var systemUnderTest = new CustomerController(customerService.Object);
+
+            var result = await systemUnderTest.UpdateCustomerAsync(1,CustomerMockData.GetCustomersById());
+
+            result.GetType().Should().Be(typeof(OkObjectResult));
+            (result as OkObjectResult).StatusCode.Should().Be(200);
+        }
+        [Fact]
+        [Trait("Category", "Put")]
+        public async Task UpdateCustomerAsync_ShouldReturn404Status()
+        {
+            var customerService = new Mock<IGenericRepository<Customer>>();
+
+            customerService.Setup(x=>x.UpdateAsync(It.IsAny<Customer>())).Returns(Task.CompletedTask);
+
+            var systemUnderTest = new CustomerController(customerService.Object);
+
+            var result = await systemUnderTest.UpdateCustomerAsync(-1,null);
+            result.GetType().Should().Be(typeof(NotFoundResult));
+            (result as NotFoundResult).StatusCode.Should().Be(404);
+        }
+
+        [Fact]
+        [Trait("Category", "Delete")]
+        public async Task DeleteCustomerAsync_ShouldReturn200Status()
+        {
+            var customerService = new Mock<IGenericRepository<Customer>>();
+
+            customerService.Setup(x => x.GetByIdAsync(1)).ReturnsAsync(CustomerMockData.GetCustomersById()); 
+            customerService.Setup(x => x.DeleteAsync(1)).Returns(Task.CompletedTask);
+
+            var systemUnderTest = new CustomerController(customerService.Object);
+
+            var result = await systemUnderTest.DeleteCustomerByIdAsync(1);
+            result.GetType().Should().Be(typeof(OkObjectResult));
+            (result as OkObjectResult).StatusCode.Should().Be(200);
+        }
+        [Fact]
+        [Trait("Category", "Delete")]
+        public async Task DeleteCustomerAsync_ShouldReturn404Status()
+        {
+            var customerService = new Mock<IGenericRepository<Customer>>();
+
+            customerService.Setup(x => x.DeleteAsync(1)).Returns(Task.CompletedTask);
+
+            var systemUnderTest = new CustomerController(customerService.Object);
+
+            var result = await systemUnderTest.DeleteCustomerByIdAsync(-1);
+            result.GetType().Should().Be(typeof(NotFoundResult));
+            (result as NotFoundResult).StatusCode.Should().Be(404);
         }
     }
 }

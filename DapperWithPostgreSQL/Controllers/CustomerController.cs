@@ -44,7 +44,7 @@ namespace DapperWithPostgreSQL.Controllers
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomerAsync(int id,Customer customer)
-        {
+        { 
             var customerExists = await _repo.GetByIdAsync(id);
             if (customerExists == null)
                 return NotFound();
@@ -63,7 +63,7 @@ namespace DapperWithPostgreSQL.Controllers
 
             await _repo.DeleteAsync(Id);
 
-            return Ok();
+            return Ok("Deleted Successfully");
         }
 
         [HttpGet("GetCustomerWithGender")]

@@ -7,7 +7,7 @@ using DapperWithPostgreSQL.Models;
 
 namespace DapperWithPostgreSQLTest.MockData
 {
-    internal class CustomerMockData
+    public class CustomerMockData
     {
         public static List<Customer> GetCustomersMockData()
         {
