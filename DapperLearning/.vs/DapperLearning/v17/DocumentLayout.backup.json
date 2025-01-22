@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\helper\\generichelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\sqlqueries\\deletecustomerquery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
@@ -10,9 +16,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\sqlqueries\\getallcustomerquery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -43,9 +46,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55175A5B-D3EC-4626-AF70-9B0F6ADFF904}|..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperwithpostgresql\\helper\\generichelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sudha\\AppData\\Local\\SourceServer\\bf21018eb81019af32ffed52fb5ea13643c598144f286200ef2f8363862ac19f\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -105,11 +105,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DeleteCustomerQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\DeleteCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\DeleteCustomerQuery.sql",
@@ -121,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DeleteGenderQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\DeleteGenderQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\DeleteGenderQuery.sql",
@@ -133,33 +133,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T16:21:06.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
               "RelativeToolTip": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAEwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAEwEUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T11:24:48.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "GenericHelper.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIAwwCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:15:21.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TestCustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
@@ -172,7 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:21:06.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GetAllCustomerQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\GetAllCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\GetAllCustomerQuery.sql",
@@ -184,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AddCustomerQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\AddCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\AddCustomerQuery.sql",
@@ -196,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
@@ -209,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UpdateCustomerQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\UpdateCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\UpdateCustomerQuery.sql",
@@ -221,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UpdateGenderQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\UpdateGenderQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\UpdateGenderQuery.sql",
@@ -233,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\AppData\\Local\\SourceServer\\0956d0ca7b50d4f5a9937120bf98bb4a49f9a5580447ef80c5c9a1201b898eac\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\0956d0ca7b50d4f5a9937120bf98bb4a49f9a5580447ef80c5c9a1201b898eac\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
@@ -246,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GetAllGenderQuery.sql ",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\GetAllGenderQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\GetAllGenderQuery.sql",
@@ -271,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GenderController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
@@ -284,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Program.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Program.cs",
@@ -293,19 +306,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T16:21:09.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GenericHelper.cs",
-              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "RelativeToolTip": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAArwCAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T08:15:21.516Z",
               "EditorCaption": ""
             },
             {
