@@ -1,61 +1,70 @@
-﻿namespace DapperWithPostgreSQL.Helper
+﻿using System.Reflection;
+
+namespace DapperWithPostgreSQL.Helper
 {
     public class GenericHelper
     {
-        public static string GetInsertQuerry(string tableName)
-        {
-            switch (tableName)
-            {
-                case "customer":
-                    return GetCustomerInsertQuery();
-                case "gender":
-                    return GetGenderInsertQuery();
-                    default:
-                    return null;
-            }
-        } 
-
-       
-
-        public static string GetUpdateQuerry(string tableName)
-        {
-            switch (tableName)
-            {
-                case "customer":
-                    return GetCustomerUpdateQuery();
-                case "gender":
-                    return GetGenderUpdateQuery();
-                default:
-                    return null;
-            }
-        }
-
         public static string GetAllQuery(string tableName)
-        {
+        { 
             return $"SELECT * FROM {tableName}"; ;
         }
 
-        public static string GetByIdQuery(int id,string tableName)
+        public static string GetByIdQuery(string tableName)
         {
-            return $"SELECT * FROM {tableName} WHERE \"Id\"={id}";
-        }
-        static string GetCustomerInsertQuery()
-        {
-            return "INSERT INTO customer(first_name,last_name,email,gender_id) VALUES(@first_name,@last_name,@email,@gender_id)";
-        }
-        static string GetGenderInsertQuery()
-        {
-            return "INSERT INTO gender(gender_name) VALUES(@gender_name)";
+            return $"SELECT * FROM {tableName} WHERE \"Id\"=@id";
         }
 
-        static string GetCustomerUpdateQuery()
+        public static string GetInsertQuery<T>(string tableName)
         {
-            return "UPDATE customer SET first_name=@first_name,last_name=@last_name,email=@email,gender_id=@gender_id WHERE \"Id\"=@Id";
+            var prop = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+
+            var colums = string.Join(",", prop.Where(x=>x.Name!="Id").Select(x => x.Name));
+            var values = string.Join(",", prop.Where(x => x.Name != "Id").Select(x => "@" + x.Name));
+            string query = $"INSERT INTO {tableName}({colums}) VALUES ({values})";
+            return query;
+
         }
-        static string GetGenderUpdateQuery()
+        public static string GetUpdateQuery<T>(string tableName)
         {
-            return "UPDATE gender SET gender_name=@gender_name WHERE \"Id\"=@Id";
+            var prop = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+
+            var values = string.Join(",", prop.Where(x=>x.Name!="Id").Select(x => x.Name+"="+"@" + x.Name));
+
+            var query = $"UPDATE {tableName} SET {values} WHERE \"Id\"=@id";
+            return query;
+            //switch (tableName)
+            //{
+            //    case "customer":
+            //        return GetCustomerUpdateQuery();
+            //    case "gender":
+            //        return GetGenderUpdateQuery();
+            //    default:
+            //        return null;
+            //}
         }
+        public static string GetDeleteQuery(string tableName)
+        {
+            return $"DELETE FROM {tableName} WHERE \"Id\"=@id";
+        }
+        //static string GetCustomerInsertQuery()
+        //{
+        //    return "INSERT INTO customer(first_name,last_name,email,gender_id) VALUES(@first_name,@last_name,@email,@gender_id)";
+        //}
+        //static string GetGenderInsertQuery()
+        //{
+        //    return "INSERT INTO gender(gender_name) VALUES(@gender_name)";
+        //}
+
+        //static string GetCustomerUpdateQuery()
+        //{
+        //    return "UPDATE customer SET first_name=@first_name,last_name=@last_name,email=@email,gender_id=@gender_id WHERE \"Id\"=@Id";
+        //}
+        //static string GetGenderUpdateQuery()
+        //{
+        //    return "UPDATE gender SET gender_name=@gender_name WHERE \"Id\"=@Id";
+        //}
+
+
 
     }
 }

@@ -1,5 +1,7 @@
 ﻿
+using System.Reflection;
 using Dapper;
+using DapperWithPostgreSQL.Attributes;
 using DapperWithPostgreSQL.Helper;
 using DapperWithPostgreSQL.Models;
 using Npgsql;
@@ -18,7 +20,7 @@ namespace DapperWithPostgreSQL.Repository
         public async Task<List<T>> GetAllAsync()
         {
             using var connection = GetConnection();
-            string tableName = typeof(T).Name.ToLower();
+            string tableName = GetTableName(); 
             string query = GenericHelper.GetAllQuery(tableName);
             var results = await connection.QueryAsync<T>(query);
             return results.ToList();
@@ -28,9 +30,9 @@ namespace DapperWithPostgreSQL.Repository
         public async Task<T> GetByIdAsync(int id)
         {
             using var connection = GetConnection();
-            string tableName = typeof(T).Name.ToLower();
-            string query = GenericHelper.GetByIdQuery(id, tableName);
-            var result = await connection.QueryFirstOrDefaultAsync<T>(query);
+            string tableName = GetTableName();
+            string query = GenericHelper.GetByIdQuery(tableName);
+            var result = await connection.QueryFirstOrDefaultAsync<T>(query, new {id});
             return result;
         }
 
@@ -38,8 +40,8 @@ namespace DapperWithPostgreSQL.Repository
         {
 
             using var connection = GetConnection();
-            string tableName = typeof(T).Name.ToLower();
-            string query = GenericHelper.GetInsertQuerry(tableName);
+            string tableName = GetTableName();
+            string query = GenericHelper.GetInsertQuery<T>(tableName);
             if (query != null)
             {
                 await connection.ExecuteAsync(query, entity);
@@ -49,8 +51,8 @@ namespace DapperWithPostgreSQL.Repository
         public async Task UpdateAsync(T entity)
         {
             using var connection = GetConnection();
-            string tableName = typeof(T).Name.ToLower();
-            string query = GenericHelper.GetUpdateQuerry(tableName);
+            string tableName = GetTableName();
+            string query = GenericHelper.GetUpdateQuery<T>(tableName);
             if (query != null)
             {
                 await connection.ExecuteAsync(query,entity);
@@ -61,15 +63,19 @@ namespace DapperWithPostgreSQL.Repository
         {
             using var connection = GetConnection();
             string tableName = typeof(T).Name.ToLower();
-            string deleteQuery = $"DELETE FROM {tableName} WHERE \"Id\"={id}";
-            await connection.ExecuteAsync(deleteQuery);
-
+            string query = GenericHelper.GetDeleteQuery(tableName);
+            await connection.ExecuteAsync(query, new {id});
         }
         private NpgsqlConnection GetConnection()
         {
             var connection = _config.GetConnectionString("postgre");
 
             return new NpgsqlConnection(connection);
+        }
+        private string GetTableName()
+        {
+            var attribute = typeof(T).GetCustomAttribute<TableAttribute>();
+            return attribute?.Name ?? typeof(T)?.Name.ToLower();
         }
         public async Task<List<CustomerWithGender>> GetCustomersWithGenderAsync()
         {

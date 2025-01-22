@@ -40,7 +40,7 @@ namespace DapperWithPostgreSQL.Controllers
             if(customer == null)
                 return BadRequest();
             await _repo.AddAsync(customer);
-            return CreatedAtAction(nameof(AddCustomerAsync), new {Id=customer.Id}, customer);
+            return CreatedAtAction(nameof(GetCustomerByIdAsync), new {Id=customer.Id}, customer);
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomerAsync(int id,Customer customer)

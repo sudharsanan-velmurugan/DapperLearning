@@ -43,7 +43,7 @@ namespace DapperWithPostgreSQL.Controllers
             return BadRequest();
 
             await repo.AddAsync(gender);
-            return CreatedAtAction(nameof(AddGenderAsync),new {id=gender.Id},gender);
+            return Created("api/gender", gender);
         }
 
         [HttpPut("{id}")]

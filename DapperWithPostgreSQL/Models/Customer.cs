@@ -1,8 +1,10 @@
 ﻿using System.Net;
 using System.Security.Cryptography.Xml;
+using DapperWithPostgreSQL.Attributes;
 
 namespace DapperWithPostgreSQL.Models
 {
+    [Table("customer")]
     public class Customer
     {
         public int Id { get; set; }

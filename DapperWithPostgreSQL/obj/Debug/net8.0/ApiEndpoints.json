@@ -90,7 +90,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
-    "Method": "Get",
+    "Method": "GetAllAsync",
     "RelativePath": "api/Gender",
     "HttpMethod": "GET",
     "IsController": true,
@@ -100,7 +100,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
-    "Method": "Post",
+    "Method": "AddGenderAsync",
     "RelativePath": "api/Gender",
     "HttpMethod": "POST",
     "IsController": true,
@@ -116,7 +116,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
-    "Method": "Get",
+    "Method": "GetGenderIdAsync",
     "RelativePath": "api/Gender/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -132,7 +132,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
-    "Method": "Put",
+    "Method": "UpdateGenderAsync",
     "RelativePath": "api/Gender/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -153,7 +153,7 @@
   },
   {
     "ContainingType": "DapperWithPostgreSQL.Controllers.GenderController",
-    "Method": "Delete",
+    "Method": "DeletebyIdAsync",
     "RelativePath": "api/Gender/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
