@@ -20,8 +20,9 @@ namespace DapperWithPostgreSQL.Repository
         public async Task<List<T>> GetAllAsync()
         {
             using var connection = GetConnection();
-            string tableName = GetTableName(); 
-            string query = GenericHelper.GetAllQuery(tableName);
+            string tableName = GetTableName();
+            // string query = GenericHelper.GetAllQuery(tableName);
+            var query = File.ReadAllText(Directory.GetCurrentDirectory()+"/SQLQueries/GetAllCustomerQuery.sql");
             var results = await connection.QueryAsync<T>(query);
             return results.ToList();
 
@@ -31,7 +32,8 @@ namespace DapperWithPostgreSQL.Repository
         {
             using var connection = GetConnection();
             string tableName = GetTableName();
-            string query = GenericHelper.GetByIdQuery(tableName);
+     //       string query = GenericHelper.GetByIdQuery(tableName);
+            var query = File.ReadAllText(Directory.GetCurrentDirectory() + "/SQLQueries/GetCustomerByIdQuery.sql");
             var result = await connection.QueryFirstOrDefaultAsync<T>(query, new {id});
             return result;
         }
@@ -41,7 +43,8 @@ namespace DapperWithPostgreSQL.Repository
 
             using var connection = GetConnection();
             string tableName = GetTableName();
-            string query = GenericHelper.GetInsertQuery<T>(tableName);
+            //string query = GenericHelper.GetInsertQuery<T>(tableName);
+            var query=File.ReadAllText(Directory.GetCurrentDirectory()+"/SQLQueries/AddCustomerQuery.sql");
             if (query != null)
             {
                 await connection.ExecuteAsync(query, entity);
@@ -52,7 +55,9 @@ namespace DapperWithPostgreSQL.Repository
         {
             using var connection = GetConnection();
             string tableName = GetTableName();
-            string query = GenericHelper.GetUpdateQuery<T>(tableName);
+            //string query = GenericHelper.GetUpdateQuery<T>(tableName);
+            var query = File.ReadAllText(Directory.GetCurrentDirectory() + "/SQLQueries/UpdateCustomerQuery.sql");
+
             if (query != null)
             {
                 await connection.ExecuteAsync(query,entity);
@@ -63,7 +68,9 @@ namespace DapperWithPostgreSQL.Repository
         {
             using var connection = GetConnection();
             string tableName = typeof(T).Name.ToLower();
-            string query = GenericHelper.GetDeleteQuery(tableName);
+            //string query = GenericHelper.GetDeleteQuery(tableName);
+            var query = File.ReadAllText(Directory.GetCurrentDirectory() + "/SQLQueries/DeleteCustomerQuery.sql");
+
             await connection.ExecuteAsync(query, new {id});
         }
         private NpgsqlConnection GetConnection()
