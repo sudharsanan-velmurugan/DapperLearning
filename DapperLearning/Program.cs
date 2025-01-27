@@ -1,4 +1,12 @@
+using DapperLearning.Exception_Handler;
 using DapperLearning.Repository;
+using DapperLearning.Swagger;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,16 +17,62 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddExceptionHandler<AppExceptionHandler>();
+builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, SwaggerConfigOptions>();
+
+//builder.Services.AddSwaggerGen(options =>
+//{
+//    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+//    {
+//        Title="Employee API V1",
+//        Version = "v1"
+//    });
+//    options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
+//    {
+//        Title = "Employee API V2",
+//        Version = "v2"
+//    });
+//    // Fix for versioned controllers
+//    options.DocInclusionPredicate((version, description) =>
+//    {
+//        var versions = description.CustomAttributes().OfType<ApiVersionAttribute>().SelectMany(attr => attr.Versions);
+//        return versions.Any(v => $"v{v.ToString()}" == version);
+//    });
+//});
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1,0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ReportApiVersions = true;
+    //options.ApiVersionReader = new UrlSegmentApiVersionReader();
+});
+builder.Services.AddVersionedApiExplorer(options =>
+{
+    options.SubstituteApiVersionInUrl = true;
+});
 
 var app = builder.Build();
+var versionDescProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    app.UseSwaggerUI(options =>
+    {
+        foreach(var desc in versionDescProvider.ApiVersionDescriptions)
+        {
+            options.SwaggerEndpoint($"/swagger/{desc.GroupName}/swagger.json",$"Employee {desc.GroupName.ToUpper()}");
+        }
+    });
+    //app.UseSwaggerUI(options =>
+    //{
+    //    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Employee API V1");
+    //    options.SwaggerEndpoint("/swagger/v2/swagger.json", "Employee API V2");
+    //});
 
+}
+app.UseExceptionHandler(o => { });
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

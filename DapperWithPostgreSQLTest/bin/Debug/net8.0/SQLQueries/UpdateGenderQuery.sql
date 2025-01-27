@@ -1,0 +1,1 @@
+﻿UPDATE gender SET gender_name=@gender_name WHERE "Id"=@id;

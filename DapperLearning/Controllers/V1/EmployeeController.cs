@@ -3,19 +3,21 @@ using DapperLearning.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DapperLearning.Controllers
+namespace DapperLearning.Controllers.V1
 {
     [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[Controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private readonly IEmployeeRepository employeeRepository;
+        private readonly IEmployeeRepository _employeeRepository;
 
         // Repository pattern using Dependency Injection
 
         public EmployeeController(IEmployeeRepository EmployeeRepository)
         {
-            employeeRepository = EmployeeRepository;
+            _employeeRepository = EmployeeRepository;
         }
 
 
@@ -23,7 +25,7 @@ namespace DapperLearning.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var employees = await employeeRepository.GetAllAsync();
+            var employees = await _employeeRepository.GetAllAsync();
             return Ok(employees);
         }
 
@@ -31,8 +33,8 @@ namespace DapperLearning.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID(int id)
         {
-            var employee = await employeeRepository.GetByIdAsync(id);
-            if(employee == null) 
+            var employee = await _employeeRepository.GetByIdAsync(id);
+            if (employee == null)
                 return NotFound();
             return Ok(employee);
         }
@@ -42,20 +44,20 @@ namespace DapperLearning.Controllers
         public async Task<IActionResult> AddEmployee(Employee employee)
         {
 
-            await employeeRepository.AddEmployeeAsync(employee);
+            await _employeeRepository.AddEmployeeAsync(employee);
             return Ok();
         }
 
         //Editing employee details
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateEmployee(int id,Employee employee)
+        public async Task<IActionResult> UpdateEmployee(int id, Employee employee)
         {
-            var existEmployee = await employeeRepository.GetByIdAsync(id);
+            var existEmployee = await _employeeRepository.GetByIdAsync(id);
 
             if (existEmployee == null)
                 return NotFound();
             employee.Id = id;
-            await employeeRepository.UpdateEmployeeAsync(id, employee);
+            await _employeeRepository.UpdateEmployeeAsync(id, employee);
             return Ok();
         }
 
@@ -63,12 +65,12 @@ namespace DapperLearning.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
-            var existEmployee = await employeeRepository.GetByIdAsync(id);
+            var existEmployee = await _employeeRepository.GetByIdAsync(id);
 
             if (existEmployee == null)
                 return NotFound();
-            
-            await employeeRepository.DeleteEmployeeAsync(id);
+
+            await _employeeRepository.DeleteEmployeeAsync(id);
             return Ok();
         }
     }

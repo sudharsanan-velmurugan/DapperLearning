@@ -10,3 +10,8 @@
 *.dll
 *.v2
 *.json
+*.v2
+DapperLearning/.vs/DapperLearning/v17/.suo
+*.json
+*.dll
+*.pdb

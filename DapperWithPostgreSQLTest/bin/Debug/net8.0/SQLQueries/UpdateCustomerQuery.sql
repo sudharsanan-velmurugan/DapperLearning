@@ -1,0 +1,1 @@
+﻿UPDATE customer SET first_name=@first_name,last_name=@last_name,email=@email,gender_id=@gender_id WHERE "Id"=@id;
