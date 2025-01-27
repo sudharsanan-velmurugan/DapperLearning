@@ -15,3 +15,6 @@ DapperLearning/.vs/DapperLearning/v17/.suo
 *.json
 *.dll
 *.pdb
+*.pdb
+*.dll
+/DapperLearning/.vs/DapperLearning/v17

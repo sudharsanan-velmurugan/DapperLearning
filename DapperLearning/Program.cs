@@ -19,26 +19,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddExceptionHandler<AppExceptionHandler>();
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, SwaggerConfigOptions>();
-
-//builder.Services.AddSwaggerGen(options =>
-//{
-//    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-//    {
-//        Title="Employee API V1",
-//        Version = "v1"
-//    });
-//    options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
-//    {
-//        Title = "Employee API V2",
-//        Version = "v2"
-//    });
-//    // Fix for versioned controllers
-//    options.DocInclusionPredicate((version, description) =>
-//    {
-//        var versions = description.CustomAttributes().OfType<ApiVersionAttribute>().SelectMany(attr => attr.Versions);
-//        return versions.Any(v => $"v{v.ToString()}" == version);
-//    });
-//});
 builder.Services.AddApiVersioning(options =>
 {
     options.DefaultApiVersion = new ApiVersion(1,0);
@@ -49,6 +29,10 @@ builder.Services.AddApiVersioning(options =>
 builder.Services.AddVersionedApiExplorer(options =>
 {
     options.SubstituteApiVersionInUrl = true;
+});
+builder.Services.AddSwaggerGen(options =>
+{
+    options.DocumentFilter<SwaggerDocumentFilter>();
 });
 
 var app = builder.Build();

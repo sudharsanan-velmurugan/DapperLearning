@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperlearning\\swagger\\swaggerdocumentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|solutionrelative:swagger\\swaggerdocumentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|c:\\users\\sudha\\onedrive\\documents\\github\\dapperlearning\\dapperlearning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EED36AC-D20A-4EF5-95FC-BFD263E45340}|DapperLearning.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -105,24 +109,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 379,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SwaggerDocumentFilter.cs",
+              "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Swagger\\SwaggerDocumentFilter.cs",
+              "RelativeDocumentMoniker": "Swagger\\SwaggerDocumentFilter.cs",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Swagger\\SwaggerDocumentFilter.cs",
+              "RelativeToolTip": "Swagger\\SwaggerDocumentFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T08:35:47.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SwaggerConfigOptions.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Swagger\\SwaggerConfigOptions.cs",
               "RelativeDocumentMoniker": "Swagger\\SwaggerConfigOptions.cs",
               "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Swagger\\SwaggerConfigOptions.cs",
               "RelativeToolTip": "Swagger\\SwaggerConfigOptions.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T07:34:47.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Repository\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
@@ -135,20 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T07:14:46.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Controllers\\V1\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\V1\\EmployeeController.cs",
@@ -161,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Controllers\\V2\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\V2\\EmployeeController.cs",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
@@ -187,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
@@ -200,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
@@ -213,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ErrorResponse.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Exception Handler\\ErrorResponse.cs",
               "RelativeDocumentMoniker": "Exception Handler\\ErrorResponse.cs",
@@ -225,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AppExceptionHandler.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperLearning\\Exception Handler\\AppExceptionHandler.cs",
               "RelativeDocumentMoniker": "Exception Handler\\AppExceptionHandler.cs",
@@ -237,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TestCustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQLTest\\System\\Controllers\\TestCustomerController.cs",
@@ -249,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdateGenderQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\UpdateGenderQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\UpdateGenderQuery.sql",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GenderController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Controllers\\GenderController.cs",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GetAllGenderQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\GetAllGenderQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\GetAllGenderQuery.sql",
@@ -283,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GenericHelper.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Helper\\GenericHelper.cs",
@@ -295,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DeleteGenderQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\DeleteGenderQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\DeleteGenderQuery.sql",
@@ -306,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DeleteCustomerQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\DeleteCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\DeleteCustomerQuery.sql",
@@ -317,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Gender.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Gender.cs",
@@ -329,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "GetAllCustomerQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\GetAllCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\GetAllCustomerQuery.sql",
@@ -340,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AddCustomerQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\AddCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\AddCustomerQuery.sql",
@@ -351,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UpdateCustomerQuery.sql",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\SQLQueries\\UpdateCustomerQuery.sql",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\SQLQueries\\UpdateCustomerQuery.sql",
@@ -362,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\AppData\\Local\\SourceServer\\0956d0ca7b50d4f5a9937120bf98bb4a49f9a5580447ef80c5c9a1201b898eac\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\0956d0ca7b50d4f5a9937120bf98bb4a49f9a5580447ef80c5c9a1201b898eac\\DapperWithPostgreSQL\\Repository\\GenericRepository.cs",
@@ -375,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\Customer.cs",
@@ -387,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\AppData\\Local\\SourceServer\\bf21018eb81019af32ffed52fb5ea13643c598144f286200ef2f8363862ac19f\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\bf21018eb81019af32ffed52fb5ea13643c598144f286200ef2f8363862ac19f\\DapperWithPostgreSQL\\Controllers\\CustomerController.cs",
@@ -400,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TableAttribute.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Attributes\\TableAttribute.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Attributes\\TableAttribute.cs",
@@ -412,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CustomerMockData.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQLTest\\MockData\\CustomerMockData.cs",
@@ -424,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Repository\\IGenericRepository.cs",
@@ -436,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CustomerWithGender.cs",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\Models\\CustomerWithGender.cs",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\Models\\CustomerWithGender.cs",
@@ -448,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "DapperWithPostgreSQL.csproj",
               "DocumentMoniker": "C:\\Users\\sudha\\OneDrive\\Documents\\GitHub\\DapperLearning\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj",
               "RelativeDocumentMoniker": "..\\DapperWithPostgreSQL\\DapperWithPostgreSQL.csproj",
