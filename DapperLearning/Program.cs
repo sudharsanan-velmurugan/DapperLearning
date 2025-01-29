@@ -56,6 +56,8 @@ if (app.Environment.IsDevelopment())
     //});
 
 }
+
+
 app.UseExceptionHandler(o => { });
 app.UseHttpsRedirection();
 
